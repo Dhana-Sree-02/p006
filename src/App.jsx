@@ -34,7 +34,7 @@ const App = () => {
     if(validatesignin())
       return;
 
-    setToast({type: "success", message: "From Sign In", id: Date.now()});
+    setToast({type: "warning", message: "From Sign In", id: Date.now()});
     //alert("Testing");
   }
 
